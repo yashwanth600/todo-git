@@ -69,3 +69,9 @@ by git since it's generated data, not source code.
 # git-todo-app
 This repository is created to learn and practice Git.
 >>>>>>> c1289b426d667da69a978d20ae5195bd753dcebe
+
+## What I am learning
+
+I am using this project to understand Git and GitHub.
+
+I am practicing branches, commits, pushing changes, and merging branches.
