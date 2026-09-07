@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# environment variables (secrets, dont push this)
+.env
+
+# our "database" file - generated at runtime, dont need to track it
+backend/todos.json
+
+# os junk
+.DS_Store
+change are made
