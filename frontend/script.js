@@ -34,12 +34,12 @@ function loadTodos() {
 
 // send new todo to backend
 function addTodo() {
-  const text = todoInput.value.trim();
+const text = todoInput.value.trim();
 
-  if (text === '') {
-    alert('please type something first!');
-    return;
-  }
+if (!text) {
+  alert('enter something yaar🥵');
+  return;
+}
 
   fetch(API_URL, {
     method: 'POST',
